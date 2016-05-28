@@ -12,16 +12,16 @@ To get started, check out the repository and inspect the code.
 
 Some useful tips to help you get started:
 
-1. Check out the repository
-2. Clone the repository 
+* Check out the repository
+* Clone the repository 
 
   ```
   git clone https://github.com/bostonhuman/mobile-portfolio
   
   ```
 
-3. Visit live demo go to [demo site](http://bostonhuman.github.io/mobile-portfolio)
-4. Test page speed with [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
+* Visit live demo go to [demo site](http://bostonhuman.github.io/mobile-portfolio)
+* Test page speed with [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
 
 ### Part 2: Optimize Frames per Second in pizza.html
 
@@ -43,31 +43,14 @@ website to load faster above 90/100 for both mobile and desktop.
 
 ### CSS
 
-1. Inline style.css into the <head> of index.html.
-2. Add attribute `media="print"` attribute to all <script> tags so the browser understands when to use print.css.
+* Inline style.css into the <head> of index.html.
+* Add attribute `media="print"` attribute to all <script> tags so the browser understands when to use print.css.
 
 ### JavaScript
 
-1. We added the `async` attribute to all script tags. So this technique tells the browser that it does not have to block DOM construction. And it doesn't block on CSSOM, so the script can't block the critical rendering path.
+* We added the `async` attribute to all script tags. So this technique tells the browser that it does not have to block DOM construction. And it doesn't block on CSSOM, so the script can't block the critical rendering path.
 
 ### The build tool Grunt
 
-1. Minify and compress HTML, CSS and JS.
-2. Minify and compress all images.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Minify and compress: HTML, CSS and JS.
+* Minify and compress: all images.
