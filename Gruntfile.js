@@ -25,7 +25,8 @@ module.exports = function(grunt) {
    		uglify: {
 			my_target: {
 				files: {
-					'dist/js/perfmatters.min.js' : ['js/perfmatters.js']
+					'dist/js/perfmatters.min.js' : 'js/perfmatters.js',
+					'dist/js/main.min.js': 'views/js/main.js'
 				}
 			}
 		},
