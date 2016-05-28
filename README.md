@@ -20,8 +20,8 @@ Some useful tips to help you get started:
   
   ```
 
-1. Visit live demo go to [demo site](http://bostonhuman.github.io/mobile-portfolio)
-2. Test page speed with [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
+3. Visit live demo go to [demo site](http://bostonhuman.github.io/mobile-portfolio)
+4. Test page speed with [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
 
 ####Part 2: Optimize Frames per Second in pizza.html
 
@@ -48,12 +48,12 @@ website to load faster above 90/100 for both mobile and desktop.
 
 ### JavaScript
 
-1. We added the ```async``` attribute to all <script>tags. So this technique tells the browser that it does not have to block DOM construction. And it doesn't block on CSSOM, so the script can't block the critical rendering path.
+1. We added the ```async``` attribute to all <script> tags. So this technique tells the browser that it does not have to block DOM construction. And it doesn't block on CSSOM, so the script can't block the critical rendering path.
 
 ### The build tool Grunt
 
-1. Minify and compress: HTML, CSS and JS.
-2. Minify and compress: all images.
+1. Minify and compress HTML, CSS and JS.
+2. Minify and compress all images.
 
 
 
