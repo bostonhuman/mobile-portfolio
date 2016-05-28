@@ -21,11 +21,11 @@ module.exports = function(grunt) {
               dest: 'dist/'                // Destination path prefix
             }]
           },
-        },
+        },     	  
    		uglify: {
 			my_target: {
 				files: {
-					'dist/css/style.min.css' : ['css/style.css']
+					'dist/js/perfmatters.min.js' : ['js/perfmatters.js']
 				}
 			}
 		},
