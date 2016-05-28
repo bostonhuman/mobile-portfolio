@@ -48,7 +48,7 @@ website to load faster above 90/100 for both mobile and desktop.
 
 ### JavaScript
 
-1. We added the ```async``` attribute to all <script> tags. So this technique tells the browser that it does not have to block DOM construction. And it doesn't block on CSSOM, so the script can't block the critical rendering path.
+1. We added the ```async``` attribute to all script tags. So this technique tells the browser that it does not have to block DOM construction. And it doesn't block on CSSOM, so the script can't block the critical rendering path.
 
 ### The build tool Grunt
 
