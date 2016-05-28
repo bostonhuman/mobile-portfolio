@@ -3,9 +3,26 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
+	grunt.loadNpmTasks('grunt-contrib-imagemin');
 	
 	grunt.initConfig ({
-		uglify: {
+        imagemin: {                          // Task        
+            options: {
+              progressive: true,                       // Target options
+              optimizationLevel: 7
+              
+            },
+         
+            dist: {                // Another target
+            files: [{
+              expand: true,                  // Enable dynamic expansion
+              cwd: 'img/',                   // Src matches are relative to this path
+              src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match
+              dest: 'dist/'                // Destination path prefix
+            }]
+          },
+        },
+   		uglify: {
 			my_target: {
 				files: {
 					'dist/css/style.min.css' : ['css/style.css']
@@ -31,6 +48,7 @@ module.exports = function(grunt) {
 		
 	});	
 	grunt.registerTask('default', [
-		'cssmin'
+		'cssmin',
+		'imagemin'
 	]);
 };
