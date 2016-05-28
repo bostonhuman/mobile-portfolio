@@ -23,7 +23,7 @@ Some useful tips to help you get started:
 3. Visit live demo go to [demo site](http://bostonhuman.github.io/mobile-portfolio)
 4. Test page speed with [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
 
-####Part 2: Optimize Frames per Second in pizza.html
+### Part 2: Optimize Frames per Second in pizza.html
 
 To optimize views/pizza.html, we will need to modify views/js/main.js until our frames per second rate is 60 fps or higher. We will find instructive comments in main.js. 
 
@@ -44,11 +44,11 @@ website to load faster above 90/100 for both mobile and desktop.
 ### CSS
 
 1. Inline style.css into the <head> of index.html.
-2. Add attribute ```media="print"``` attribute to all <script> tags so the browser understands when to use print.css.
+2. Add attribute `media="print"` attribute to all <script> tags so the browser understands when to use print.css.
 
 ### JavaScript
 
-1. We added the ```async``` attribute to all script tags. So this technique tells the browser that it does not have to block DOM construction. And it doesn't block on CSSOM, so the script can't block the critical rendering path.
+1. We added the `async` attribute to all script tags. So this technique tells the browser that it does not have to block DOM construction. And it doesn't block on CSSOM, so the script can't block the critical rendering path.
 
 ### The build tool Grunt
 
