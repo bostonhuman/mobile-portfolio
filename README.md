@@ -43,17 +43,17 @@ website to load faster above 90/100 for both mobile and desktop.
 
 ### CSS
 
-* Inline style.css into the <head> of index.html.
-* Add attribute ```media="print"``` attribute to the external print.css    	stylesheet so that the browser understand when it needs print.css.
+1. Inline style.css into the <head> of index.html.
+2. Add attribute ```media="print"``` attribute to the external print.css    	stylesheet so that the browser understand when it needs print.css.
 
 ### JavaScript
 
-* We added the ```async``` attribute to all <script>tags. So this technique tells the browser that it does not have to block DOM construction. And it doesn't block on CSSOM, so the script can't block the critical rendering path.
+1. We added the ```async``` attribute to all <script>tags. So this technique tells the browser that it does not have to block DOM construction. And it doesn't block on CSSOM, so the script can't block the critical rendering path.
 
 ### The build tool Grunt
 
-* Minify and compress: HTML, CSS and JS.
-* Minify and compress: all images.
+1. Minify and compress: HTML, CSS and JS.
+2. Minify and compress: all images.
 
 
 ### Optimization Tips and Tricks
