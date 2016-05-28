@@ -44,7 +44,7 @@ website to load faster above 90/100 for both mobile and desktop.
 ### CSS
 
 1. Inline style.css into the <head> of index.html.
-2. Add attribute ```media="print"``` attribute to the external print.css    	stylesheet so that the browser understand when it needs print.css.
+2. Add attribute ```media="print"``` attribute to all <script> tags so the browser understands when to use print.css.
 
 ### JavaScript
 
