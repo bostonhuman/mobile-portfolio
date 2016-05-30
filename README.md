@@ -62,4 +62,7 @@ website to load faster above 90/100 for both mobile and desktop.
 * Minify and compress: HTML, CSS and JS.
 * Minify and compress: all images.
 
+### Optimization main.js
 
+* Reduced the number of pizza element
+![reduced pizza element](https://cloud.githubusercontent.com/assets/18538482/15657494/59c28382-267f-11e6-808a-119d1fe0ecdd.png)
