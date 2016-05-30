@@ -73,3 +73,8 @@ website to load faster above 90/100 for both mobile and desktop.
 
 ![2](https://cloud.githubusercontent.com/assets/18538482/15657653/c3ea561c-2680-11e6-84d8-cabaaddf3cf1.png)
 ![3](https://cloud.githubusercontent.com/assets/18538482/15657655/c88ccf4c-2680-11e6-81d5-ef58d01b3bb7.png)
+
+* Resized pizzas: resize the pizzas in under 5ms
+Using getElementsByClassName() is faster than querySelector() or querySelectorAll().
+
+![4](https://cloud.githubusercontent.com/assets/18538482/15657737/cfa53f70-2681-11e6-8a96-2e26c47f284e.png)
