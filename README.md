@@ -65,4 +65,11 @@ website to load faster above 90/100 for both mobile and desktop.
 ### Optimization main.js
 
 * Reduced the number of pizza element
+
 ![reduced pizza element](https://cloud.githubusercontent.com/assets/18538482/15657494/59c28382-267f-11e6-808a-119d1fe0ecdd.png)
+
+* Improved animation
+ The best option is making two loops, one for the phases (0 to 4) and the other for the positions (0 to items.length).
+
+![2](https://cloud.githubusercontent.com/assets/18538482/15657653/c3ea561c-2680-11e6-84d8-cabaaddf3cf1.png)
+![3](https://cloud.githubusercontent.com/assets/18538482/15657655/c88ccf4c-2680-11e6-81d5-ef58d01b3bb7.png)
