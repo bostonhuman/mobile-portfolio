@@ -78,3 +78,7 @@ website to load faster above 90/100 for both mobile and desktop.
 Using getElementsByClassName() is faster than querySelector() or querySelectorAll().
 
 ![4](https://cloud.githubusercontent.com/assets/18538482/15657737/cfa53f70-2681-11e6-8a96-2e26c47f284e.png)
+
+* Prefer getElementById() over querySelector()
+
+![5](https://cloud.githubusercontent.com/assets/18538482/15657956/43f3b814-2684-11e6-9d20-f4310dca6e22.png)
