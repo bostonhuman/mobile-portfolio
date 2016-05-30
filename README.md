@@ -82,3 +82,8 @@ Using getElementsByClassName() is faster than querySelector() or querySelectorAl
 * Prefer getElementById() over querySelector()
 
 ![5](https://cloud.githubusercontent.com/assets/18538482/15657956/43f3b814-2684-11e6-9d20-f4310dca6e22.png)
+
+### Test PageSpeed Insights by Google
+
+![6](https://cloud.githubusercontent.com/assets/18538482/15658017/6799f700-2685-11e6-8e71-3037e6c75472.png)
+![7](https://cloud.githubusercontent.com/assets/18538482/15658032/99522c18-2685-11e6-8bd2-9b59cfc3576d.png)
