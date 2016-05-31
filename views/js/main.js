@@ -536,10 +536,15 @@ function updatePositions() {
     var top = (document.body.scrollTop / 1250);
     //the efficient way to access DOM, is document.getElementByClass('mover');
     // Loop in reverse to improve performance
-		for (var i = items.length; i--;) {
-			var phase = Math.sin( top + (i % 5));
-			//items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
-			var left = -items[i].basicLeft + 1000 * phase + 'px';
+  		var phase = [];
+  		
+  		for (var i = 0; i < 5; i++) {
+	  		phase.push(Math.sin(top + i) * 100);
+  		}
+  		
+  		for (var i = 0, max = items.length; i < max; i++) {
+	  		items[i].style.left = items[i].basicLeft + phase[i%5] + 'px';
+	  		var left = -items[i].basicLeft + 100 * phase + 'px';
 			items[i].style.transform = "translateX("+left+") translateZ(0)";
   		}
 
@@ -568,7 +573,7 @@ function updatePositions() {
         // Loop in reverse to improve performance
         for (var i = 31; i--;) {
             var elem = document.createElement('img');
-            elem.style.height = '100px';
+            elem.style.height = '73.333px';
 			elem.style.width = '73.333px';
             elem.className = 'mover';
             elem.src = "../public/img/pizza-slider.png";
