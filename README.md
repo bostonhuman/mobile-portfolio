@@ -70,7 +70,6 @@ website to load faster above 90/100 for both mobile and desktop.
 ![1](https://cloud.githubusercontent.com/assets/18538482/15685539/1b1038da-273a-11e6-8963-999d598c5aa3.png)
 
 * Improved animation
- The best option is making two loops, one for the phases (0 to 4) and the other for the positions (0 to items.length).
 
 ![2](https://cloud.githubusercontent.com/assets/18538482/15685783/4f8211c8-273b-11e6-9796-9887b25e8f8d.png)
 ![3](https://cloud.githubusercontent.com/assets/18538482/15657655/c88ccf4c-2680-11e6-81d5-ef58d01b3bb7.png)
