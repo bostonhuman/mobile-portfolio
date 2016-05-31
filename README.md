@@ -64,25 +64,25 @@ website to load faster above 90/100 for both mobile and desktop.
 
 ### Optimization main.js
 
-* Reduced the number of pizza element
-* Restore the width and height as the background pizzas
+* Reduced the number of pizza element.
+* Restore the width and height as the background pizzas.
 
 ![1](https://cloud.githubusercontent.com/assets/18538482/15690183/57b7c8f0-2750-11e6-9c70-56a3a11e8efc.png)
 
-* Improved animation
+* Improved animation.
 * The best option is making two loops, one for the phases (0 to 4) and the other for the positions (0 to items.length).
 
 ![2](https://cloud.githubusercontent.com/assets/18538482/15690226/9a4a3b80-2750-11e6-8013-ecdf79e26fea.png)
 ![3](https://cloud.githubusercontent.com/assets/18538482/15657655/c88ccf4c-2680-11e6-81d5-ef58d01b3bb7.png)
 
-* Resized pizzas: resize the pizzas in under 5ms
+* Resized pizzas: resize the pizzas in under 5ms.
 Using getElementsByClassName() is faster than querySelector() or querySelectorAll().
 * Use `elements[0]` is better than `document.getElementsByClassName("randomPizzaContainer")`. This technique
 is to avoid accessing the DOM multiple times.
 
 ![3](https://cloud.githubusercontent.com/assets/18538482/15686266/7a67e514-273d-11e6-8c8f-98a19d6339f0.png)
 
-* Prefer getElementById() over querySelector()
+* Prefer getElementById() over querySelector().
 
 ![4](https://cloud.githubusercontent.com/assets/18538482/15686365/e71ace1a-273d-11e6-8326-6afba0d3e351.png)
 
@@ -90,7 +90,7 @@ is to avoid accessing the DOM multiple times.
 
 ![5](https://cloud.githubusercontent.com/assets/18538482/15686454/6afa20f0-273e-11e6-8f28-eb088f2d7c62.png)
 
-### Test PageSpeed Insights by Google
+### Test PageSpeed Insights by Google.
 
 ![6](https://cloud.githubusercontent.com/assets/18538482/15658017/6799f700-2685-11e6-8e71-3037e6c75472.png)
 ![7](https://cloud.githubusercontent.com/assets/18538482/15658032/99522c18-2685-11e6-8bd2-9b59cfc3576d.png)
