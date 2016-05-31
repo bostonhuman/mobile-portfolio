@@ -71,7 +71,7 @@ website to load faster above 90/100 for both mobile and desktop.
 * Improved animation
  The best option is making two loops, one for the phases (0 to 4) and the other for the positions (0 to items.length).
 
-![2](https://cloud.githubusercontent.com/assets/18538482/15657653/c3ea561c-2680-11e6-84d8-cabaaddf3cf1.png)
+![1](https://cloud.githubusercontent.com/assets/18538482/15685539/1b1038da-273a-11e6-8963-999d598c5aa3.png)
 ![3](https://cloud.githubusercontent.com/assets/18538482/15657655/c88ccf4c-2680-11e6-81d5-ef58d01b3bb7.png)
 
 * Resized pizzas: resize the pizzas in under 5ms
