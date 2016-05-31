@@ -67,11 +67,12 @@ website to load faster above 90/100 for both mobile and desktop.
 * Reduced the number of pizza element
 * Restore the width and height as the background pizzas
 
-![1](https://cloud.githubusercontent.com/assets/18538482/15685539/1b1038da-273a-11e6-8963-999d598c5aa3.png)
+![1](https://cloud.githubusercontent.com/assets/18538482/15690183/57b7c8f0-2750-11e6-9c70-56a3a11e8efc.png)
 
 * Improved animation
+* The best option is making two loops, one for the phases (0 to 4) and the other for the positions (0 to items.length).
 
-![2](https://cloud.githubusercontent.com/assets/18538482/15685783/4f8211c8-273b-11e6-9796-9887b25e8f8d.png)
+![2](https://cloud.githubusercontent.com/assets/18538482/15690226/9a4a3b80-2750-11e6-8013-ecdf79e26fea.png)
 ![3](https://cloud.githubusercontent.com/assets/18538482/15657655/c88ccf4c-2680-11e6-81d5-ef58d01b3bb7.png)
 
 * Resized pizzas: resize the pizzas in under 5ms
