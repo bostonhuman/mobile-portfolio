@@ -77,11 +77,15 @@ website to load faster above 90/100 for both mobile and desktop.
 * Resized pizzas: resize the pizzas in under 5ms
 Using getElementsByClassName() is faster than querySelector() or querySelectorAll().
 
-![4](https://cloud.githubusercontent.com/assets/18538482/15657737/cfa53f70-2681-11e6-8a96-2e26c47f284e.png)
+![3](https://cloud.githubusercontent.com/assets/18538482/15686266/7a67e514-273d-11e6-8c8f-98a19d6339f0.png)
 
 * Prefer getElementById() over querySelector()
 
-![5](https://cloud.githubusercontent.com/assets/18538482/15657956/43f3b814-2684-11e6-9d20-f4310dca6e22.png)
+![4](https://cloud.githubusercontent.com/assets/18538482/15686365/e71ace1a-273d-11e6-8326-6afba0d3e351.png)
+
+* We declared the `pizzasDiv` variable outside the loop, so the function only makes one DOM call.
+
+![5](https://cloud.githubusercontent.com/assets/18538482/15686454/6afa20f0-273e-11e6-8f28-eb088f2d7c62.png)
 
 ### Test PageSpeed Insights by Google
 
