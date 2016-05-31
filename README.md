@@ -65,6 +65,7 @@ website to load faster above 90/100 for both mobile and desktop.
 ### Optimization main.js
 
 * Reduced the number of pizza element
+* Restore the width and height as the background pizzas
 
 ![1](https://cloud.githubusercontent.com/assets/18538482/15685539/1b1038da-273a-11e6-8963-999d598c5aa3.png)
 
