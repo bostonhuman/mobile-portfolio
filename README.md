@@ -94,3 +94,10 @@ is to avoid accessing the DOM multiple times.
 
 ![6](https://cloud.githubusercontent.com/assets/18538482/15658017/6799f700-2685-11e6-8e71-3037e6c75472.png)
 ![7](https://cloud.githubusercontent.com/assets/18538482/15658032/99522c18-2685-11e6-8bd2-9b59cfc3576d.png)
+
+## How to run the app?
+* In your terminal
+```
+git clone https://github.com/bostonhuman/mobile-portfolio
+```
+* Open `index.html` to run the app.
