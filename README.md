@@ -17,7 +17,6 @@ Some useful tips to help you get started:
 
   ```
   git clone https://github.com/bostonhuman/mobile-portfolio
-  
   ```
 * Visit live demo go to [demo site](http://bostonhuman.github.io/mobile-portfolio)
 * Test page speed with [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
