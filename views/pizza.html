@@ -3,6 +3,15 @@
 <head>
   <link rel="stylesheet" href="css/style2.min.css">
   <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <!-- styling tab bar menu color on pizza.html -->
+  <style type="text/css">
+    .tabbar {
+      background-color: orange;
+    }
+    .align {
+      text-align: center;
+    }
+  </style>
 </head>
 
 <body>
@@ -11,20 +20,20 @@
       <div class="col-md-6">
         <div class="row">
           <div class="col-md-12">
-            <h1>Cam's Pizzeria</h1>
+            <h1>Woody's Pizzeria</h1>
             <div class="row">
               <div id="menu" class="col-md-12">
                 <form action="#randomPizzas">
-                  <input type="submit" value="Menu">
+                  <input type="submit" value="Menu" class="tabbar">
                 </form>
                 <form action="#ingredients">
-                  <input type="submit" value="Our Ingredients">
+                  <input type="submit" value="Our Ingredients" class="tabbar">
                 </form>
                 <form action="#locations">
-                  <input type="submit" value="Locations">
+                  <input type="submit" value="Locations" class="tabbar">
                 </form>
                 <form action="#" onsubmit="alert('Thanks for clicking! This button doesn\'t do anything because this is a fake pizzeria :\)')">
-                  <input type="submit" value="Contact Us">
+                  <input type="submit" value="Contact Us" class="tabbar">
                 </form>
               </div>
             </div>
@@ -36,13 +45,14 @@
     </div>
     <div id="callToAction" class="row">
       <div class="col-md-4">
-        <img src="images/pizzeria.jpg" class="img-responsive"> <!-- Image credit to: http://commons.wikimedia.org/wiki/File:HK_TST_night_%E5%98%89%E8%98%AD%E9%81%93_Granville_Road_restaurant_Paisano's_Pizzeria_pizza_Dec-2013.JPG -->
+        <!-- <img src="images/pizzeria.jpg" class="img-responsive">  -->
+        <!-- Image credit to: http://commons.wikimedia.org/wiki/File:HK_TST_night_%E5%98%89%E8%98%AD%E9%81%93_Granville_Road_restaurant_Paisano's_Pizzeria_pizza_Dec-2013.JPG -->
       </div>
       <div class="col-md-8">
         <div class="row">
           <div class="col-md-12">
             <h2>We Have Hundreds of Pizza Recipes!</h2>
-            <p>At Cam's Pizzeria, we know you want options. Pepperoni? Boring. Cheese? No way! Sausage? C'mon, let's get creative.</p>
+            <p>At Woody's Pizzeria, we know you want options. Pepperoni? Boring. Cheese? No way! Sausage? C'mon, let's get creative.</p>
 
             <p>We have every pizza ingredient imaginable in our kitchen because we know you take choice seriously. Take a look through our menu of hundreds of pizza options and we know that you'll find something you love.</p>
           </div>
@@ -50,7 +60,7 @@
         <div class="row">
           <div class="col-md-6 col-md-push-3">
             <form action="#randomPizzas">
-              <input type="submit" value="Pick a Pizza Now!">
+              <input type="submit" value="Pick a Pizza Now!" class="tabbar">
             </form>
           </div>
         </div>
@@ -107,7 +117,7 @@
               <img src="images/pizza.png" class="img-responsive">
             </div>
             <div class="col-md-6">
-              <h4>The Udacity Special</h4>
+              <h4>The Woody Special</h4>
               <ul>
                 <li>Turkey</li>
                 <li>Tofu</li>
@@ -124,7 +134,7 @@
               <img src="images/pizza.png" class="img-responsive">
             </div>
             <div class="col-md-6">
-              <h4>The Cameron Special</h4>
+              <h4>The Woody Special</h4>
               <ul>
                 <li>Chicken</li>
                 <li>Hot Sauce</li>
@@ -135,7 +145,7 @@
         </div>
       </div>
     </div>
-    <div id="footer" class="col-md-12">Thanks for visiting! &copy; 2014 Udacity</div>
+    <div id="footer" class="col-md-12 tabbar align">Thanks for visiting! &copy; 2015 Sethya Thet</div>
   </div>
   <script type="text/javascript" src="js/main.min.js" defer></script>
 </body>
